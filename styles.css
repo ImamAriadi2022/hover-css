@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+  }
+  
+
+  h1 {
+    color: white;
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+  .box {
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    transition: all 0.3s;
+  }
+  
+  .box:hover {
+    background-color: #ff6b6b;
+  }
+  
+  .box-zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  .box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-shadow:hover {
+    box-shadow: 0 8px 16px rgba(255, 89, 89, 0.946);
+  }
+  
+  .box-rotate {
+    transition: transform 0.3s;
+  }
+  
+  .box-rotate:hover {
+    transform: rotate(15deg);
+  }
+  
+  .box-gradient {
+    background: linear-gradient(45deg, #ff6b6b, #67cd00);
+    color: #333;
+  }
+  
+  .box-gradient:hover {
+    background: linear-gradient(45deg, #67cd00, #ff6b6b);
+  }
+  
